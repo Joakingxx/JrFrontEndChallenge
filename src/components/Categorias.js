@@ -7,9 +7,10 @@ const useStyles = makeStyles((theme) => ({
     ctasCount: {
         marginRight: "10px",
         color: "#000000",
-        padding: "4px 15px 4px 15px",
+        padding: "2px 15px 2px 15px",
         borderRadius: "9px",
         fontSize: "15px",
+        fontWeight: "900",
     },
 }));
 
