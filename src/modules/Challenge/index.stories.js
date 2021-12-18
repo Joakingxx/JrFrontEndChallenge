@@ -1,7 +1,8 @@
 import React from "react";
 import { storiesOf } from "@storybook/react";
 import { Grid, Typography, Divider } from "@material-ui/core";
-import Servicios from "../../components/Servicios";
+
+import Categorias from "../../components/Categorias";
 
 import { Provider } from "react-redux";
 
@@ -20,7 +21,7 @@ storiesOf("Challenge", module).add("Component", () => {
                     <Divider />
                 </Grid>
                 <Grid item>
-                    <Servicios />
+                    <Categorias />
                 </Grid>
             </Grid>
         </Provider>

@@ -1,6 +1,6 @@
 import { combineReducers } from "redux";
-import { serviciosReducer } from "./serviciosReducer";
+import { CategoriasReducer } from "./categoriasReducer";
 
 export default combineReducers({
-    serviciosReducer: serviciosReducer,
+    CategoriasReducer: CategoriasReducer,
 });
