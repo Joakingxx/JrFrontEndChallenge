@@ -12,18 +12,24 @@ import configureStore from "../../store/configureAppStore";
 const store = configureStore();
 
 storiesOf("Challenge", module).add("Component", () => {
-  return (
-    <Provider store={store}>
-      <Grid container spacing={4}>
-        <Grid item xs={12}>
-          <Typography variant="h3">Jr. Front End Challenge</Typography>
-          <Divider />
-        </Grid>
-        <Grid item>
-          <Categorias />
-          <Top10 />
-        </Grid>
-      </Grid>
-    </Provider>
-  );
+    return (
+        <Provider store={store}>
+            <Grid container spacing={4}>
+                <Grid item xs={12}>
+                    <Typography variant="h3">
+                        Jr. Front End Challenge
+                    </Typography>
+                    <Divider />
+                </Grid>
+                <Grid item>
+                    <div>
+                        <Categorias />
+                    </div>
+                    <div style={{ marginLeft: "-15px" }}>
+                        <Top10 />
+                    </div>
+                </Grid>
+            </Grid>
+        </Provider>
+    );
 });
